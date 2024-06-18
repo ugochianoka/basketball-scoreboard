@@ -1,45 +1,47 @@
 let homeScore = document.getElementById("home-score")
 let guestScore = document.getElementById("guest-score")
 
-let score = 0
+let initialHomeScore = 0
+let initialGuestScore = 0
 
 homeScore.innerText = 0
 guestScore.innerText = 0
 
 function homeIncrementOne() {
-    score += 1
+    initialHomeScore += 1
     homeScore.innerText = score
 }
 
 
 function homeIncrementTwo() {
-    score += 2
+    initialHomeScore += 2
     homeScore.innerText = score
 }
 
 function homeIncrementThree() {
-    score += 3
+    initialHomeScore += 3
     homeScore.innerText = score
 }
 
 function guestIncrementOne() {
-    score += 1
+    initialGuestScore += 1
     guestScore.innerText = score
 }
 
 
 function guestIncrementTwo() {
-    score += 2
+    initialGuestScore += 2
     guestScore.innerText = score
 }
 
 function guestIncrementThree() {
-    score += 3
+    initialGuestScore += 3
     guestScore.innerText = score
 }
 
 function restart() {
-    score = 0
-    guestScore.innerText = score
-    homeScore.innerText = score
+    initialHomeScore = 0
+    initialGuestScore = 0
+    guestScore.innerText =  initialGuestScore
+    homeScore.innerText =  initialHomeScore
 }
