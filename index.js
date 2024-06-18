@@ -9,34 +9,34 @@ guestScore.innerText = 0
 
 function homeIncrementOne() {
     initialHomeScore += 1
-    homeScore.innerText = score
+    homeScore.innerText = initialHomeScore
 }
 
 
 function homeIncrementTwo() {
     initialHomeScore += 2
-    homeScore.innerText = score
+    homeScore.innerText = initialHomeScore
 }
 
 function homeIncrementThree() {
     initialHomeScore += 3
-    homeScore.innerText = score
+    homeScore.innerText = initialHomeScore
 }
 
 function guestIncrementOne() {
     initialGuestScore += 1
-    guestScore.innerText = score
+    guestScore.innerText = initialGuestScore
 }
 
 
 function guestIncrementTwo() {
     initialGuestScore += 2
-    guestScore.innerText = score
+    guestScore.innerText = initialGuestScore
 }
 
 function guestIncrementThree() {
     initialGuestScore += 3
-    guestScore.innerText = score
+    guestScore.innerText = initialGuestScore
 }
 
 function restart() {
